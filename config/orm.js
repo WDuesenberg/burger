@@ -1,5 +1,5 @@
 // Import MySQL connection.
-var connection = require("../config/connection.js");
+var connection = require("../config/connection");
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
@@ -50,8 +50,8 @@ var orm = {
       cb(result);
     });
   },
-  selectAll: function(table, cols, vals, cb) {
-    var queryString = "SELECT FROM " + table;
+  create: function(table, cols, vals, cb) {
+    var queryString = "INSERT INTO " + table;
 
     queryString += " (";
     queryString += cols.toString();
@@ -71,8 +71,8 @@ var orm = {
     });
   },
   // An example of objColVals would be {name: panther, sleepy: true}
-  insertOne: function(table, objColVals, condition, cb) {
-    var queryString = "INSERT INTO " + table;
+  update: function(table, objColVals, condition, cb) {
+    var queryString = "UPDATE " + table;
 
     queryString += " SET ";
     queryString += objToSql(objColVals);
@@ -88,8 +88,8 @@ var orm = {
       cb(result);
     });
   },
-  updateOne: function(table, condition, cb) {
-    var queryString = "UPDATE " + table;
+  delete: function(table, condition, cb) {
+    var queryString = "DELETE FROM " + table;
     queryString += " WHERE ";
     queryString += condition;
 
