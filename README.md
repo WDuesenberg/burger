@@ -8,4 +8,7 @@ This application uses technologies and languages such as MySQL, Node.js, Express
 This aplication was designed with the MVC design pattern.
 
 # Issues
-If using a MAC, please be aware that using Vagrant instead of MySQL will more than likely be the better option. (that is if you haven't already gotten MySQL downloaded through terminal and properly functioning). 
+If using a MAC, please be aware that using Vagrant instead of MySQL will more than likely be the better option. (that is if you haven't already gotten MySQL downloaded through terminal and properly functioning).
+
+# Heroku Link
+https://git.heroku.com/burgerdevourer89.git
