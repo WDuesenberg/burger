@@ -6,11 +6,30 @@ Burger Devourer! is an interactive application which allows users to input the n
 
 ***Technology***
 
-This application uses technologies and languages such as MySQL, Node.js, Express, Handlebars, and an individually created ORM.
-This aplication was designed with the MVC design pattern.
+    - JavaScript
+    - CSS
+    - Node.js
+    - Express.js
+    - Handlebars.js
+    - MySQL
+    - ORM(individually created)
+    - MVC
 
+**Objective**
 
+My goal was to create an interactive mobile friendly application that would be unique and engaging to the individual user. I also wanted to gain a better understanding of Handlebars, MySQL, and create my own ORM. 
 
-**Heroku Link**
+**Future Goals**
+
+I would like to continue improving the styling and possibly encorporate the use of an API to track the locations of particular burgers and the restaurants where they are served.
+
+**Heroku Link:**
 
 https://burgerdevourer89.herokuapp.com/
+
+*Contact*
+
+LinkedIn: https://www.linkedin.com/in/wyatt-duesenberg-283910123/
+Email: wyatt.duesenberg@gmail.com
+
+***Thank You***
