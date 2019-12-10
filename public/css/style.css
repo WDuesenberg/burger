@@ -1,9 +1,21 @@
 body {
-  background-color: yellow;
+  background-color: lightgoldenrodyellow;
   width: 100%;
   height: 500px;
 }
 
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-family: 'Pattaya', sans-serif;
+  font-size: calc(6vh + 4vw);
+  text-decoration-line: underline;
+  color: crimson;
+}
+
+h2 {
+  font-family: 'Candal', sans-serif;
+}
+
+li {
+  font-family: 'Reem Kufi', sans-serif;
 }
