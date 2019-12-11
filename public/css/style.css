@@ -55,4 +55,8 @@ div {
 
 button.add {
   text-align: center;
+  margin-bottom: 35px;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 10px;
 }
