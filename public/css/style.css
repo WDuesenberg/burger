@@ -31,7 +31,9 @@ li, ul {
 
 button {
   font-family: 'Pattaya', sans-serif;
-  color: crimson;
+  color: whitesmoke;
+  background-color: crimson;
+  border-radius: 10px;
 }
 
 form {
