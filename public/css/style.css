@@ -37,6 +37,7 @@ li {
 button {
   text-align: center;
   font-family: 'Pattaya', sans-serif;
+  font-size: calc(1.5vh + 0.8vw);
   color: whitesmoke;
   background-color: crimson;
   border-radius: 10px;
